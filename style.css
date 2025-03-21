@@ -3,44 +3,103 @@
   padding: 0%;
   box-sizing: border-box;
 }
+body{
+    background-color: darkblue;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 #footer{
     margin: 10px;
-  background-color: darkblue;
+  
   font-family: "Inter", sans-serif;
   padding: 100px 50px;
   gap: 20px;
   display: flex;
   justify-content: space-between;
-
+}
+footer a{
+    color: white;
 }
 .footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
 }
 /* .logo{
     max-width: 400px;
 } */
+a:link{
+    text-decoration: none;
+}
+/* .links{
+    text-indent: 50px;
+} */
+ ul{
+    list-style-type: none;
+    line-height: 2.5;
+ }
+ /* 2nd column */
+ .links a:hover{
+    color: #f06c2c;
+    text-decoration: underline;
+    /* transition-duration: .5s; */
+    /* transition: ease-in-out; */
+ }
+ .socials a:hover{
+    color: #f06c2c;
+ }
+ /* 3rd column */
+ .insta{
+    display: flex;
+    align-items: center;
+ }
+ .twitter{
+    display: flex;
+    align-items: center;
+ }
+ .what{
+    display: flex;
+    align-items: center;
+ }
+ .fb{
+    display: flex;
+
+    align-items: center;
+ }
+ .linkedin{
+    display: flex;
+
+    align-items: center;
+ }
+ /* 4th column */
 .links{
     display: flex;
 }
-.actions one{
+.actions .one{
     grid-area: one;
 }
-.actions two{
+.actions .two{
     grid-area: two;
 }
-.actions three{
+.actions .three{
     grid-area: three;
 }
-.actions four{
+.actions .four{
     grid-area: four;
 }
-.actions five{
+.actions .five{
     grid-area: five;
 }
-.actions six{
+.actions .six{
     grid-area: six;
 }
 .actions{
@@ -55,12 +114,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    padding: 5px 0px;
-    width: ;
+    /* margin: 10px; */
+    border: 1px;
+    border-radius: 2dvh;
+    padding: 10px 10px;
     color: white;
     background-color: #f06c2c;
 }
-#footer{
-    /*  */
+.five:hover{
+    background: green;
 }
+.six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    border: 1px;
+    border-radius: 2dvh;
+    padding: 10px 10px;
+    color: white;
+    background-color: #f06c2c;
+}
+.six:hover{
+    background: green;
+}
+/* .five .six{
+    display: grid;
+    row-gap: 50px;
+} */
+ .actions .one{
+    border: .1px solid black;
+    border-radius: 10px;
+ }
