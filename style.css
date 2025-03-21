@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#footer{
+    margin: 10px;
+  background-color: darkblue;
+  font-family: "Inter", sans-serif;
+  padding: 100px 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+/* .logo{
+    max-width: 400px;
+} */
+.links{
+    display: flex;
+}
+.actions one{
+    grid-area: one;
+}
+.actions two{
+    grid-area: two;
+}
+.actions three{
+    grid-area: three;
+}
+.actions four{
+    grid-area: four;
+}
+.actions five{
+    grid-area: five;
+}
+.actions six{
+    grid-area: six;
+}
+.actions{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 'one two'
+    'three four'
+    'five five'
+    'six six';
+}
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px 0px;
+    width: ;
+    color: white;
+    background-color: #f06c2c;
+}
+#footer{
+    /*  */
+}
